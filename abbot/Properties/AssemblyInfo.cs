@@ -10,8 +10,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCulture("")]
 
 [assembly: AssemblyCopyright("Copyright (c) 2013-2026 Timothy Baxendale")]
-[assembly: AssemblyFileVersion("1.0.1")]
-[assembly: AssemblyInformationalVersion("1.0.1")]
+[assembly: AssemblyFileVersion("0.5.2.1")]
+[assembly: AssemblyInformationalVersion("0.5.2.1")]
 [assembly: AssemblyTitle("Abbot")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
