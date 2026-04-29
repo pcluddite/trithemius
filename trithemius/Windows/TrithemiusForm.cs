@@ -1,6 +1,6 @@
 // =====
 //
-// Copyright (c) 2013-2024 Timothy Baxendale
+// Copyright (c) 2013-2026 Timothy Baxendale
 //
 // =====
 using System;
@@ -11,7 +11,6 @@ using System.IO;
 using System.Windows.Forms;
 
 using Monk.Imaging;
-using Monk.Memory;
 using Monk.Memory.Bittwiddling;
 
 namespace Trithemius.Windows
@@ -113,7 +112,8 @@ namespace Trithemius.Windows
                         LeastSignificantBits = (int)numericUpDownLsb.Value,
                         InvertDataBits       = checkBoxInvertData.Checked,
                         InvertPrefixBits     = checkBoxInvertPrefix.Checked,
-                        Endianness           = comboBoxEndian.SelectedIndex == 0 ? EndianMode.LittleEndian : EndianMode.BigEndian
+                        Endianness           = comboBoxEndian.SelectedIndex == 0 ? EndianMode.LittleEndian : EndianMode.BigEndian,
+                        ZeroBasedSize        = checkBoxZeroBased.Checked
                     };
                 }
 
